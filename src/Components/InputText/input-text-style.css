@@ -1,0 +1,14 @@
+.InputText-container {
+  padding: 0px;
+  margin: 0px;
+}
+
+.InputText {
+  height: 45px;
+  width: 310px;
+  background-color: transparent;
+  color: lightgray;
+  font-size: 20px;
+  border: 1px solid lightcyan;
+  border-radius: 5px;
+}

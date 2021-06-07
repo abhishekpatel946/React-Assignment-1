@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import Text from "./Components/Text/Text";
+import InputText from "./Components/InputText/InputText";
+import Button from "./Components/Button/Button";
+import "./App.css";
+import { useState } from "react";
 
 function App() {
+  // state for text
+  const [text, setText] = useState("");
+  const [displayMsg, setDisplayMsg] = useState("");
+
+  // onChange for input
+  const changeHandle = (e) => {
+    setText(e.target.value);
+  };
+
+  // clickHandle for button
+  const clickHandle = (e) => {
+    setDisplayMsg(text);
+    setText("");
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App-header">
+        <Text displayMsg={displayMsg} />
+        <InputText changeHandle={changeHandle} text={text} />
+        <Button clickHandle={clickHandle} />
+      </div>
     </div>
   );
 }
