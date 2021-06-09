@@ -1,9 +1,9 @@
-.Button-container {
+.buttonContainer {
   padding: 10px;
   margin: 10px;
 }
 
-.Button {
+.button {
   height: 35px;
   width: 180px;
   border: none;

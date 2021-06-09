@@ -3,9 +3,9 @@ import "./input-text-style.css";
 
 function InputText(props) {
   return (
-    <div className="InputText-container">
+    <div className="inputTextContainer">
       <input
-        className="InputText"
+        className="inputText"
         type="text"
         placeholder="Enter Some Text"
         onChange={props.changeHandle}

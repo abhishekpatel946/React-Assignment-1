@@ -1,9 +1,9 @@
-.InputText-container {
+.inputTextContainer {
   padding: 0px;
   margin: 0px;
 }
 
-.InputText {
+.inputText {
   height: 45px;
   width: 310px;
   background-color: transparent;

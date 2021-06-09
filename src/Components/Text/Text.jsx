@@ -4,7 +4,7 @@ import "./test-style.css";
 function Text(props) {
   return (
     <div>
-      <h1 className="Text-heading"> Hello {props.displayMsg} </h1>
+      <h1 className="textHeading"> Hello {props.displayMsg} </h1>
     </div>
   );
 }

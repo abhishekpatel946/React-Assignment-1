@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <h1 align="center">React Assignment Day_1</h1>
+</p>
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [React_Assignment_Day_1](#react_assignment_day_1)
+    - [Link to our application:](#link-to-our-application)
+  - [Built Using](#built-using)
+  - [Getting Started](#getting-started)
+  - [Usage](#usage)
+    - [Gallery](#gallery)
+  - [Road map](#road-map)
+  - [Contribution](#contribution)
+      - [Steps to follow:](#steps-to-follow)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# [React_Assignment_Day_1](https://unofficial-netflix.web.app/)
+To strengthen your thought process around React, let’s write some reactjs programs.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Write a program that displays “Hello World!”.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Create a “Text” Component that accepts a message(string) as props, and display it.
 
-### `npm run eject`
+- Create a “Button” Component which accepts, label(string) and onClick(function) as props. onClick function to be called when you click on the button.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Create an “InputText” component. This component will take Placeholder, value and handleChange as props. Placeholder will be shown, when there is no value. Value Props is the value that needs to be displayed in the input component. handleChange will call the function whenever the value of the input field is changed.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Let’s create a page using the above component. Take input from the user in the “Input” component. When the user clicks on the Button component, then show the input text in the “Text” component and empty the Input component.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### Link to our application:
+https://brave-bohr-6cd135.netlify.app/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+Status: live and running
+```
+## Built Using
+This section should list any major frameworks that you built using your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples:
+* [React](https://reactjs.org/docs/getting-started.html)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+<!-- GETTING STARTED -->
+## Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This is an example of how to set up your project locally.
+To get a local copy up and running on your system follow these simple example steps.
 
-### Analyzing the Bundle Size
+<!-- USAGE EXAMPLES -->
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Gallery
+![Main-Screeen](https://github.com/abhishekpatel946/React-Assignment-1/blob/master/src/Assets/demo.png)
+)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+<!-- ROAD MAP -->
+## Road map
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+See the [open issues](https://github.com/abhishekpatel946/React-Assignment-1/issues) for a list of proposed features (and known issues).
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+<!-- CONTRIBUTING -->
+## Contribution
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+#### Steps to follow:
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/abhishekpatel946/React-Assignment-1.svg?style=flat
+[contributors-url]: https://github.com/abhishekpatel946/React-Assignment-1/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/abhishekpatel946/React-Assignment-1.svg?style=flat
+[forks-url]: https://github.com/abhishekpatel946/Unofficial-Netflix/network/members
+[stars-shield]: https://img.shields.io/github/stars/abhishekpatel946/React-Assignment-1.svg?style=flat
+[stars-url]: https://github.com/abhishekpatel946/PassManager-pyScript/stargazers
+[issues-shield]: https://img.shields.io/github/issues/abhishekpatel946/React-Assignment-1.svg?style=flat
+[issues-url]: https://github.com/abhishekpatel946/React-Assignment-1/issues
