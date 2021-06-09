@@ -15,7 +15,7 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-- [React_Assignment_Day_1](#react_assignment_day_1)
+- [React Assignment Day_1](#react-assignment-day_1)
     - [Link to our application:](#link-to-our-application)
   - [Built Using](#built-using)
   - [Getting Started](#getting-started)
@@ -30,7 +30,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-# [React_Assignment_Day_1](https://unofficial-netflix.web.app/)
+# [React Assignment Day_1](https://brave-bohr-6cd135.netlify.app/)
 To strengthen your thought process around React, let’s write some reactjs programs.
 
 - Write a program that displays “Hello World!”.
@@ -67,7 +67,6 @@ To get a local copy up and running on your system follow these simple example st
 
 ### Gallery
 ![Main-Screeen](https://github.com/abhishekpatel946/React-Assignment-1/blob/master/src/Assets/demo.png)
-)
 
 
 
